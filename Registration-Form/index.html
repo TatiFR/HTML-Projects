@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Register Attendance</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Registration</h1>
+    <p id="description">Register your attendance to the wedding here.</p>
+    <form id="survey-form" method="post">
+      <fieldset>
+        <label id="name-label">Enter Your Name: <input id="name" name="name" type="text" placeholder="Your name" required /></label>
+        <label id="email-label">Enter Your Email: <input id="email" name="email" type="email" placeholder="Your email" required /></label>
+        <label id="number-label">Enter Your Phone Number: <input id="number" name="number" type="number" min="9" max="9" placeholder="Your number" required /></label>
+      </fieldset>
+      <fieldset>
+        <label id="dropdown-label">How many people will be attending: 
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">One person</option>
+            <option value="2">Two people</option>
+            <option value="3">Not attending</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Menu Preference (required)</legend>
+        <label for="meat-menu"><input id="meat-menu" type="radio" name="menu-preference" class="inline" value="meat" checked /> Meat</label>
+        <label for="fish-menu"><input id="fish-menu" type="radio" name="menu-preference" class="inline" value="fish" /> Fish</label>
+        <label for="vegan-menu"><input id="vegan-menu" type="radio" name="menu-preference" class="inline" value="vegan" /> Vegan</label>
+      </fieldset>
+      <fieldset>
+        <label for="accommodation"><input class="inline" id="accommodation" type="checkbox" required name="accommodation" value="accommodation" /> I will need accommodation</label>
+        <label><input class="inline" id="accommodation" type="checkbox" required name="accommodation" value="no-accommodation" /> I will not need accommodation</label>
+      </fieldset>
+      <fieldset>
+        <label for="message"> Write a message to the happy couple:
+          <textarea id="message" name="message" rows="3" cols="30" placeholder="Send a special message here..."></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <input id="submit" type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
