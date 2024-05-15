@@ -1,0 +1,76 @@
+body {
+    background-image: url(crystals.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-white);
+    margin: 0;
+}
+
+#survey-form {
+  width: 80%;
+  background-color: rgba(81, 17, 117, 0.758);
+  color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  box-shadow: 0 0 5px 5px rgb(192, 232, 255);
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #9ccfe8e5;
+}
+
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input, textarea {
+    background-color: #ffffff;
+    border: 1px solid #648190e5;
+    color: #0a0909;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #50c7d9;
+    border-color: rgb(202, 249, 255);
+    min-width: 300px;
+    color: whitesmoke
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+h1, p {
+    margin: 1rem auto;
+    text-align: center;
+    color: rgb(91, 10, 91);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    font-style: italic;
+}
